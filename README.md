@@ -1,4 +1,4 @@
-Deep Learning-Based Recognition System for Pashto Handwritten Text: Benchmark on PHTI
+Title: Deep Learning-Based Recognition System for Pashto Handwritten Text: Benchmark on PHTI
 
 1- RNNLIB GUIDE.docx: This file contains the guideline for the INSTALLATION of RNNLIB
 
