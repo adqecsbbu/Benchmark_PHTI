@@ -10,4 +10,4 @@
 
 And press enter 
 
-*Note: in case of any difficulty please feel free to contact ibrar.hussain@sbbu.edu.pk
+*Note: in case of any difficulty please feel free to contact ibrar@sbbu.edu.pk
