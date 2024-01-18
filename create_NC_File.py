@@ -222,28 +222,4 @@ if __name__ == "__main__":
 	Scalar,labels, Normalize=pashtoNC(allnames[9071:18140],"PHTI_Train_MDNC_0_2.nc",labels,Scalar,Normalize)
 	Scalar,labels, Normalize=pashtoNC(allnames[18141:22027],"PHTI_Val_MDNC_0_1.nc",labels,Scalar,Normalize)
 	Scalar,labels, Normalize=pashtoNC(allnames[22028:len(allnames)],"PHTI_Test_MDNC_0_1.nc",labels,Scalar,Normalize)
-	# ~ Scalar,labels, Normalize=pashtoNC(allnames,"PHTI_test_MDNC_0_1.nc",labels,Scalar,Normalize)
 	
-	#~ count=0
-	#~ Limit=10000
-	#~ for i in range(10):
-            #~ #print tenPercent
-            #~ Tenfolds.append(trnames[count:count+tenPercent])
-    
-            #~ count=count+tenPercent
-            
-	#~ print len(Tenfolds)
-	
-	    
-	
-	
-	#~ Limit=100000
-	#~ Scalar=None
-	#Scalar,labels=pashtoNC(Train_data,"trainPashtoScannedCharMDKPTINonScalar48.nc",trainPath,labels,Limit,Scalar=None,Normalize=False)
-	#labels,Scalar=pashtoNC(trnames,"trainKHATT.nc",trainPath,labels,Limit,Scalar=None,Normalize=False)
-		
-	#Scalar,labels=pashtoNC(Test_data,"testPashtoScannedCharMDKPTINonScalar48.nc",trainPath,labels,Limit,Scalar,Normalize=False)
-	#labels,Scalar=pashtoNC(Test_data,"testKHATT.nc",trainPath,labels,Limit,Scalar,Normalize=False)
-	
-	##Scalar,labels=pashtoNC(Val_data,"valPashtoScannedCharMDKPTINonScalar48.nc",trainPath,labels,Limit,Scalar,Normalize=False)
-	#labels,Scalar=pashtoNC(Val_data,"valKHATT.nc",trainPath,labels,Limit,Scalar,Normalize=False)
