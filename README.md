@@ -6,7 +6,8 @@
 2.	The rest of the process is very easy. Make sure that your NC and config files are in the same folder.  Configuration file contains the configuration of the MDLSTM network. In our case, the configuration file (i.e. give the name of that file) contains the proposed MDLSTM architecture that is published in the article.
 3.	Go to your command terminal and navigate to the folder where your NC files and configuration files are stored and Type the following command.
 
-`path-to-your-folder>rnnlib   <yourconfigfile.config>` 
+`path/to/your/folder>rnnlib <yourconfigfile.config>` 
+
 And press enter 
 
 *Note: in case of any difficulty please feel free to contact ibrar.hussain@sbbu.edu.pk
