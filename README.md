@@ -1,10 +1,12 @@
-Title: Deep Learning-Based Recognition System for Pashto Handwritten Text: Benchmark on PHTI
+Installation Guide
 
-DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10526965.svg)](https://doi.org/10.5281/zenodo.10526965)
+The experiment is carried out on using RNNLib, therefore, you will need to install RNNLib on your PC. Please follow the following order for correct installation.
 
-1- RNNLIB GUIDE.docx: This file contains the guidelines for the INSTALLATION of RNNLIB. For more information on RNNLIB Installation, please visit this link:
-https://sourceforge.net/p/rnnl/wiki/Home/
+1.	The RNNLib can be downloaded and installed using the instruction given here*. Once you have installed the RNNLib, use the given code (NC files Creation code) named as xyz.py to create NC files. NC files are those files which are known as Network Compatible for RNNLib. These files are made by using NETCDF library. 
+2.	The rest of the process is very easy. Make sure that your NC and config files are in the same folder.  Configuration file contains the configuration of the MDLSTM network. In our case, the configuration file (i.e. give the name of that file) contains the proposed MDLSTM architecture that is published in the article.
+3.	Go to your command terminal and navigate to the folder where your NC files and configuration files are stored and Type the following command.
 
-2- NC File_Code.py: This code is for the creation of a Network Configuration File used for the Input to RNNLIB
+path-to-your-folder>rnnlib   <yourconfigfile.config> 
+And press enter 
 
-3- transcriptionPHTI-V1.config: This file  contains the Proposed Model transcription code for the experiment of RNN-LSTM 
+*Note: in case of any difficulty please feel free to contact ibrar.hussain@sbbu.edu.pk
